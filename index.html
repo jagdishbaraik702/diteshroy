@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ditesh Roy - Professional Farmer, YouTuber & Nursery Owner. Trusted grafted plants and quality seeds. Order via WhatsApp.">
+    <title>Ditesh Roy - Farmer & YouTuber | Grafted Plant Nursery</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- WhatsApp Notice Bar -->
+    <div class="notice-bar">
+        <i class="fab fa-whatsapp"></i>
+        <span>सभी Orders केवल WhatsApp के जरिए | All Orders Only via WhatsApp</span>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Ditesh Roy – Farmer & YouTuber | Grafted Plant Nursery</h1>
+                <p class="hero-subtitle">Trusted by 1.86L+ Subscribers | 6.28Cr+ Views</p>
+                <div class="hero-buttons">
+                    <a href="https://youtube.com/@diteshroy" target="_blank" class="btn btn-youtube">
+                        <i class="fab fa-youtube"></i> Watch on YouTube
+                    </a>
+                    <a href="#" class="btn btn-whatsapp-hero" onclick="openWhatsApp(); return false;">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section">
+        <div class="container">
+            <h2 class="section-title">About Ditesh Roy</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop" alt="Farmer in field" class="about-img">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Ditesh Roy एक अनुभवी किसान (experienced farmer) हैं जिन्होंने वर्षों से अपने खेतों में organic farming और nursery cultivation की है। अपने व्यावहारिक अनुभव और ज्ञान को लाखों लोगों तक पहुंचाने के लिए, उन्होंने YouTube channel शुरू किया जो आज 1.86 लाख से अधिक subscribers और 6.28 करोड़ से अधिक views का मील का पत्थर हासिल कर चुका है।
+                    </p>
+                    <p>
+                        Ditesh Roy का अपना nursery है जहाँ वे high-quality grafted plants और selected vegetable seeds उगाते हैं। YouTube पर जो पौधे और तकनीकें आप देखते हैं, वही वास्तविक products आप उनके nursery से सीधे order कर सकते हैं। Farmer to Farmer Direct - पारदर्शिता, विश्वास और गुणवत्ता की गारंटी।
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>1.86L+</h3>
+                        <p>Subscribers</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-eye"></i>
+                        <h3>6.28Cr+</h3>
+                        <p>Views</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Real</h3>
+                        <p>Farmer & Nursery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products section">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            
+            <!-- Grafted Vegetable Plants -->
+            <div class="category-section">
+                <h3 class="category-title">
+                    <i class="fas fa-leaf"></i> Grafted Vegetable Plants
+                </h3>
+                <div class="products-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1592841200221-a6898a13e43f?w=400&h=300&fit=crop" alt="Grafted Tomato Plant" class="product-img">
+                        </div>
+                        <div class="product-badge badge-grafted">
+                            <i class="fas fa-cut"></i> Grafted Plant
+                        </div>
+                        <h4 class="product-name">Grafted Tomato Plant</h4>
+                        <p class="product-description">
+                            High-yield grafted tomato plants with disease resistance. Perfect for home gardens and commercial cultivation. Fast fruiting variety.
+                        </p>
+                        <div class="product-price">₹149 - ₹299</div>
+                        <button class="btn btn-product" onclick="orderProduct('Grafted Tomato Plant')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=400&h=300&fit=crop" alt="Grafted Brinjal Plant" class="product-img">
+                        </div>
+                        <div class="product-badge badge-grafted">
+                            <i class="fas fa-cut"></i> Grafted Plant
+                        </div>
+                        <h4 class="product-name">Grafted Brinjal Plant</h4>
+                        <p class="product-description">
+                            Premium grafted brinjal plants with excellent fruit quality. Resistant to common diseases. High production capacity.
+                        </p>
+                        <div class="product-price">₹149 - ₹299</div>
+                        <button class="btn btn-product" onclick="orderProduct('Grafted Brinjal Plant')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Vegetable Seeds -->
+            <div class="category-section">
+                <h3 class="category-title">
+                    <i class="fas fa-seedling"></i> Vegetable Seeds
+                </h3>
+                <div class="products-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1518635017498-87f514b751ba?w=400&h=300&fit=crop" alt="Bitter Gourd Seed" class="product-img">
+                        </div>
+                        <div class="product-badge badge-seed">
+                            <i class="fas fa-seedling"></i> Seed
+                        </div>
+                        <h4 class="product-name">Bitter Gourd Seed</h4>
+                        <p class="product-description">
+                            Premium quality bitter gourd seeds. High germination rate with excellent yield. Suitable for all seasons.
+                        </p>
+                        <div class="product-price">₹49 - ₹149</div>
+                        <button class="btn btn-product" onclick="orderProduct('Bitter Gourd Seed')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=400&h=300&fit=crop" alt="VNR-218 Brinjal Seed" class="product-img">
+                        </div>
+                        <div class="product-badge badge-seed">
+                            <i class="fas fa-seedling"></i> Seed
+                        </div>
+                        <h4 class="product-name">VNR-218 Brinjal Seed</h4>
+                        <p class="product-description">
+                            High-yield VNR-218 brinjal seeds. Hybrid variety with uniform fruit size and excellent taste. Market favorite.
+                        </p>
+                        <div class="product-price">₹79 - ₹199</div>
+                        <button class="btn btn-product" onclick="orderProduct('VNR-218 Brinjal Seed')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1604977049386-4b36d0c827c8?w=400&h=300&fit=crop" alt="Cucumber Seed" class="product-img">
+                        </div>
+                        <div class="product-badge badge-seed">
+                            <i class="fas fa-seedling"></i> Seed
+                        </div>
+                        <h4 class="product-name">Cucumber Seed</h4>
+                        <p class="product-description">
+                            Quality cucumber seeds with high production. Early maturing variety. Perfect for kitchen gardens and farming.
+                        </p>
+                        <div class="product-price">₹39 - ₹129</div>
+                        <button class="btn btn-product" onclick="orderProduct('Cucumber Seed')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1591375779755-0483ab1e756a?w=400&h=300&fit=crop" alt="Bhaji Seed" class="product-img">
+                        </div>
+                        <div class="product-badge badge-seed">
+                            <i class="fas fa-seedling"></i> Seed
+                        </div>
+                        <h4 class="product-name">Bhaji Seed</h4>
+                        <p class="product-description">
+                            Fresh bhaji (amaranth) seeds. Nutrient-rich leafy vegetable. Easy to grow in containers and garden beds.
+                        </p>
+                        <div class="product-price">₹29 - ₹99</div>
+                        <button class="btn btn-product" onclick="orderProduct('Bhaji Seed')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=400&h=300&fit=crop" alt="Palak Seed" class="product-img">
+                        </div>
+                        <div class="product-badge badge-seed">
+                            <i class="fas fa-seedling"></i> Seed
+                        </div>
+                        <h4 class="product-name">Palak Seed</h4>
+                        <p class="product-description">
+                            Premium spinach (palak) seeds. Fast-growing variety with tender leaves. Rich in iron and vitamins.
+                        </p>
+                        <div class="product-price">₹29 - ₹99</div>
+                        <button class="btn btn-product" onclick="orderProduct('Palak Seed')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=400&h=300&fit=crop" alt="Coriander Seed" class="product-img">
+                        </div>
+                        <div class="product-badge badge-seed">
+                            <i class="fas fa-seedling"></i> Seed
+                        </div>
+                        <h4 class="product-name">Coriander Seed</h4>
+                        <p class="product-description">
+                            High-quality coriander (dhaniya) seeds. Strong aroma and flavor. Suitable for both leaves and seeds.
+                        </p>
+                        <div class="product-price">₹39 - ₹119</div>
+                        <button class="btn btn-product" onclick="orderProduct('Coriander Seed')">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Order Section -->
+    <section class="how-to-order section">
+        <div class="container">
+            <h2 class="section-title">How to Order</h2>
+            <p class="section-subtitle">Simple 4-step process to order your favorite plants and seeds</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <h3>Select Product</h3>
+                    <p>Browse our nursery products and choose the plants or seeds you need</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>Click Order Button</h3>
+                    <p>Click "Order on WhatsApp" button - WhatsApp will open automatically with pre-filled message</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Fill Details</h3>
+                    <p>Add quantity, delivery pincode, and payment mode in the WhatsApp message</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Get Confirmation</h3>
+                    <p>Receive payment details and dispatch confirmation directly on WhatsApp</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions? Want to place a bulk order? Contact us on WhatsApp</p>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>All orders via WhatsApp only</p>
+                    <p class="contact-detail">+91 9303350491</p>
+                    <a href="#" class="btn btn-contact" onclick="openWhatsApp(); return false;">
+                        <i class="fab fa-whatsapp"></i> Click to Order
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>For inquiries & support</p>
+                    <p class="contact-detail">
+                        <a href="mailto:ditsh.abkp@gmail.com" class="contact-link">ditsh.abkp@gmail.com</a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Working Hours</h3>
+                    <p>Monday - Saturday</p>
+                    <p class="time">9:00 AM - 7:00 PM</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Nursery Location</h3>
+                    <p>Multiple Locations</p>
+                    <p class="location">Across India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                <i class="fas fa-handshake"></i> Farmer to Farmer Direct | Orders only via WhatsApp
+            </p>
+            <p class="footer-copyright">
+                &copy; 2024 Ditesh Roy Nursery. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
